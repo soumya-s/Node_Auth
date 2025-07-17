@@ -42,7 +42,7 @@ app.post("/login", (req, res) => {
 // app.get("/send",(req,res) => {
 //     res.send("Hello World");
 // });
-app.listen(3000, (req,res) => { 
+app.listen(process.env.PORT, (req,res) => { 
     //res.send("Hello World");   
     console.log("Server is running on port 3000");
 });
